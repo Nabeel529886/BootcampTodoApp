@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install Node Js
-      uses: actions/node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 13.0.1
 
