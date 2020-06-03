@@ -18,7 +18,7 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        <h4>BootCamp Counter App</h4>
+        <h4>BootCamp Counter App Using React</h4>
         <h1>{this.state.counter}</h1>
         <button onClick={this.addCount}>Add Count</button>
         <button onClick={this.removeCount}>Remove Count</button>
